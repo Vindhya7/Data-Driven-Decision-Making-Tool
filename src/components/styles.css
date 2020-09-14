@@ -1,0 +1,79 @@
+/* App */
+.header{
+    background-color:#425563;
+    height: 8vh;
+    align-items: center;
+    font-family: Arial;
+}
+.logo{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+}
+.headerText{
+    /*color: #00b38f;*/
+    color: white;
+}
+.filterTitle{
+    font-weight: bold;
+    padding: 2%;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+}
+.filterDiv{
+    width:50vw;
+    background-color: #f9f9fb ;
+}
+.optionsDiv{
+    width:50vw;
+    background-color: #f9f9fb ;
+}
+.choicesDiv{
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9fb ;
+}
+
+/* Topic List */
+.topicSection{
+    padding: 10px;
+    position: absolute;
+}
+
+.selectedTopic{
+    text-align: center;
+}
+
+.dropdownMenu{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Integration List */
+
+.integrationDiv{
+    padding-left: 5%;
+
+}
+.integrationOptionsDiv{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+.integrationCheckbox{
+    width: 50%;
+}
+
+/* Use cases Div */
+.usecaseDiv{
+    padding-left: 5%;
+}
+
+.button{
+    background-color:#1fc482;
+}
